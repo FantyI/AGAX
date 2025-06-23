@@ -1,0 +1,427 @@
+:root {
+   --highlight: #FF4949;
+   --light_color: #fff;
+   --dark_color: #000000;
+   --main_background_color: #A5DCAB;
+   --gray: #484848
+}
+
+.flex_alignment {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+header {
+   background-color: transparent;
+   position: relative;
+   display: flex;
+   flex-flow: column;
+   justify-content: space-around;
+}
+
+.header_content {
+   height: 100px;
+   width: 1125px;
+   margin: auto;
+}
+
+
+.logo {
+   position: absolute;
+   left: 40px;
+   top: 0;
+}
+
+.main_page {
+
+   visibility: hidden;
+}
+
+.navigation_list {
+   gap: 32px;
+}
+
+.highlight {
+   color: var(--highlight);
+}
+
+.phone {
+   gap: 7px;
+   justify-content: start;
+}
+
+.welcome_card {
+   width: 1440px;
+   display: flex;
+   align-items: start;
+   gap: 40px;
+   padding: 36px 50px;
+   background-size: cover;
+   height: 560px;
+   color: var(--dark_color);
+}
+
+.page_main {
+   height: 760px;
+   color: var(--light_color);
+   background: url(../images/header/main.png);
+}
+
+.main_description {
+   display: flex;
+   flex-flow: column;
+   gap: 10px;
+}
+
+.main_title {
+   font-size: 36px;
+}
+
+.title {
+   font-size: 40px;
+   text-align: center;
+   font-weight: 400;
+   padding-block: 100px 45px;
+}
+
+.title_about {
+   font-size: 64px;
+   padding-block: 45px 60px;
+}
+
+.text {
+   width: 1155px;
+   margin: auto;
+   font-size: 28px;
+   text-align: justify;
+   line-height: 120%;
+}
+
+/* .images {} */
+
+.ref_button {
+   padding: 10px 20px;
+   background-color: var(--light_color);
+   border-radius: 20px;
+   font-size: 20px;
+   width: 210px;
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.float_right {
+   justify-content: flex-end;
+   margin: 45px 90px 45px auto;
+}
+
+.advantages {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   gap: 70px;
+}
+
+.advantage_card {
+   margin: auto;
+   width: 413px;
+   height: 320px;
+   padding: 15px 25px;
+   background-color: var(--light_color);
+   border-radius: 7px;
+}
+
+.title_card {
+   font-size: 28px;
+   margin-bottom: 25px;
+   text-align: center;
+}
+
+.advantage_list {
+   list-style-type: disc;
+   margin-left: 40px;
+   text-align: justify;
+   font-size: 20px;
+   display: flex;
+   flex-flow: column;
+}
+
+.rounding {
+   border-radius: 7px 7px 80px 7px;
+}
+
+.btn_up {
+   margin: 180px auto 40px;
+}
+
+footer {
+   background-color: var(--gray);
+   color: var(--light_color);
+   font-size: 24px;
+
+   path {
+      fill: var(--light_color);
+   }
+
+   .title{
+      padding-top: 30px;
+   }
+}
+
+footer>*:nth-child(n) {
+   margin-left: 50px;
+}
+
+
+.contacts,
+.partners {
+   display: flex;
+   flex-flow: column;
+   justify-content: start;
+   height: 360px;
+   /* width: 315px; */
+}
+
+.contacts_title,
+.partners_title {
+   padding-top: 50px;
+   text-align: left;
+}
+
+.partners_images {
+   gap: 30px;
+   height: 130px;
+}
+
+.btn_highlight {
+   padding: 16px 48px;
+   background-color: var(--highlight);
+   color: var(--light_color);
+   font-size: 24px;
+   margin-top: 65px;
+   text-align: center;
+}
+
+.social_network {
+   display: flex;
+}
+
+.footer_info {
+   display: flex;
+   flex-flow: column;
+   gap: 20px;
+}
+
+.address {
+   margin-top: auto;
+}
+
+.white_background {
+   background-color: var(--light_color);
+}
+
+.pages_about {
+   background: url(../images/header/about.png), var(--light_color);
+   background-repeat: no-repeat;
+   background-position: right bottom;
+}
+
+main {
+   margin-inline: 120px;
+}
+
+.no_margin {
+   margin-inline: 0;
+}
+
+.about_us {
+   width: 800px;
+   padding: 30px 15px;
+   background-color: var(--light_color);
+   border-radius: 5px;
+   margin-block: 90px;
+   font-size: 24px;
+}
+
+.cards_examples {
+   display: flex;
+   justify-content: center;
+   gap: 60px;
+}
+
+.card_example {
+   padding: 32px 36px;
+   background-color: var(--light_color);
+}
+
+.page_services {
+   background: url(../images/header/services.png), var(--light_color);
+   background-repeat: no-repeat;
+   background-position: right bottom;
+}
+
+.main_description p {
+   width: 485px;
+   font-size: 12px;
+}
+
+.houses_cards {
+   display: flex;
+   flex-flow: column;
+
+}
+
+.house_card {
+   width: 100%;
+   font-size: 20px;
+   padding: 50px;
+   border-radius: 10px;
+   background-color: var(--light_color);
+}
+
+.title_house {
+   font-size: 36px;
+   margin-bottom: 40px;
+}
+
+.list_parameters {
+   margin-left: 24px;
+   list-style-type: disc;
+}
+
+.houses_cards {
+   margin-block: 100px;
+   display: flex;
+   flex-flow: column;
+   gap: 90px;
+}
+
+.page_works {
+   background: url(../images/header/works.png), var(--light_color);
+   background-repeat: no-repeat;
+   background-position: right bottom;
+}
+
+.section_name {
+   width: 385px;
+   font-size: 24px;
+   margin-block: 65px 20px;
+}
+
+.gap_block {
+   display: flex;
+   flex-flow: column;
+   gap: 80px;
+}
+
+.review {
+   background-color: var(--light_color);
+   padding: 45px 40px;
+   display: flex;
+   gap: 32px;
+   font-size: 32px;
+}
+
+.user_name {
+   margin-bottom: 20px;
+}
+
+
+form {
+   min-width: 735px;
+   background-color: var(--light_color);
+   padding: 45px;
+   margin: auto   ;
+   margin-bottom: 300px;
+   font-size: 20px;
+   input{
+      color: var(--dark_color);
+   }
+}
+
+.add_photo {
+   width: 350px;
+   height: 400px;
+   border: 1px solid var(--dark_color);
+   font-size: 28px;
+   padding: 20px;
+}
+
+.title_photo {
+   width: 130px;
+   text-align: center;
+   margin: auto;
+   padding-block: 90px 20px;
+}
+
+input[type="file"]{
+   font-size: 20px;
+   text-align: center;
+   width: 340px;
+   margin: auto;
+}
+
+.inputs{
+   display: flex;
+}
+
+.fields_fills{
+   display: flex;
+   flex-flow: column;
+   gap: 10px;
+   padding: 45px;
+}
+
+.field_fill{
+   padding-block: 15px;
+   border-bottom: 1px solid var(--dark_color);
+   font-size: 28px;
+   width: 280px;
+}
+
+.send_feedback{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-inline: 105px;
+   padding: auto;
+   justify-self: center;
+}
+
+.position_btn_send{
+   justify-content: center;
+}
+
+.textarea{
+   height: 200px;
+   width: 400px;
+}
+
+.send_btn{
+   margin: 80px auto 0;
+   padding: 25px 100px;
+   width: 450px;
+   font-size: 32px;
+}
+
+.description{
+   width: 620px;
+   display: flex;
+   justify-content: center;
+   margin: auto;
+   margin-bottom: 115px;
+   font-size: 20px;
+}
+
+.privacy_policy{
+   width: 205px;
+   margin-top: 70px;
+   display: flex;
+   align-items: start;
+   gap: 10px;
+}
+
+.application{
+   width: 735px;
+}
